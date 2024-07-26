@@ -1,5 +1,16 @@
 // Include any default variable overrides here (though functions won't be available)
 
+$primary: violet;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  background-color: aqua;
+}
+
+.box {
+  min-height: 50px;
+  background-color: black;
+}
 
 // Then add additional custom code here
